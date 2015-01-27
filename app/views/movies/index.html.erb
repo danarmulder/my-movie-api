@@ -1,0 +1,13 @@
+<h1>Welcome to Dana's Movie Api</h1>
+
+<p>
+  <%= link_to '"/all"', all_path %> will return a json object of all the movies in the database.
+</p>
+
+<p>
+  Search through all of the movies using query search, t for title, y for year.
+  <br>Ex:
+  <br><%= link_to '/search/?t=jerry', '/search/?t=jerry' %>
+  <br><%= link_to '/search/?y=1996', '/search/?y=1996' %>
+  <br><%= link_to '/search/?t=jerry&y=1996', '/search/?t=jerry&y=1996' %>
+</p>
